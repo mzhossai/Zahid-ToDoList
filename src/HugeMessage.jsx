@@ -6,7 +6,7 @@ export default function HugeMessage() {
 
     useEffect(() => {
 
-        // properly updateing everything
+        // properly updating everything
         const timerId = setInterval(() => {
             setTime(new Date());
         }, 1000);
